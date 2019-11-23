@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="form">
+        <label for="input-fname">First Name:</label>
+        <input placeholder="Andersson" type="text" name="fname" class="form-input" id="input-fname">
+        <label for="input-lname">Last Name:</label>
+        <input placeholder="Andersson" type="text" name="lname" class="form-input" id="input-lname">
+        <label for="input-number">Telephone:</label>
+        <input placeholder="123-4567890" type="tel" name="number" class="form-input" id="input-number">
+
+        <label for="input-mail">Mail:</label>
+        <input placeholder="mail123@mail.com" type="text" name="email" class="form-input" id="input-mail">
+        <label for="input-message">Your message:</label>
+        <textarea placeholder="Dear sir..." name="message" id="input-message" class="form-input" cols="30"
+            rows="10"></textarea>
+
+        <!-- Why disabled? To setup so you cant "submit" until all fields are filled in -->
+        <button type="submit" class="submit-button">Submit</button>
+
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
